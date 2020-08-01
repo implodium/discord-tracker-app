@@ -1,7 +1,7 @@
 # Discord Tracker App
 
 ## What is it
-This is a application that can be started on a discord bot. It will track the members, the online members and the
+This is an application that can be started on a discord bot. It will track the members, the online members and the
  offline members and send them to a firebase database of choice.
  
  ## How to use it
@@ -24,3 +24,9 @@ This is a application that can be started on a discord bot. It will track the me
 ### 3. start docker container
 
 Start the docker container with `docker-compose up`.
+
+## More reference for the discord api and firebase api
+
+- https://firebase.google.com/docs/
+- https://discord.js.org/?source=post_page---------------------------#/
+- https://discord.com/developers/docs/intro
