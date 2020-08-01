@@ -6,7 +6,7 @@ const config = require('./config.json')
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://discord-stat-tracker.firebaseio.com"
+    databaseURL: `https://${config.database}.firebaseio.com`
 });
 
 const database = admin.database();
