@@ -18,6 +18,7 @@
   "homepage": "https://github.com/implodium/discord-tracker-app#readme",
   "description": "",
   "dependencies": {
+    "discord.js": "^12.2.0",
     "firebase-admin": "^8.13.0"
   }
 }
