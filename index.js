@@ -11,8 +11,6 @@ admin.initializeApp({
 
 const database = admin.database();
 
-console.log(database)
-
 client.login(config.token)
 
 client.on('ready', () => {
