@@ -1,0 +1,8 @@
+version: '2.2'
+
+services:
+  node:
+    restart: always
+    container_name: tracker-app
+    build: .
+    image: tracker-app/deploy
