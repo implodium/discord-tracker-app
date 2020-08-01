@@ -12,6 +12,7 @@ admin.initializeApp({
 const database = admin.database();
 
 client.login(config.token)
+    .catch(console.log)
 
 client.on('ready', () => {
     console.log("CONNECTED")
